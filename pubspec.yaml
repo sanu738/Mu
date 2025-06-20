@@ -1,0 +1,22 @@
+name: apple_music_clone
+description: A replica of Apple Music with offline playback
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  just_audio: ^0.9.33
+  file_picker: ^6.1.1
+  permission_handler: ^11.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/audio/
